@@ -10,10 +10,10 @@ namespace EhtolauseHarjoitukset
         // Jos on, tulosta "Hahmo on tarpeeksi vanha seikkailuun!".
         // Muuten tulosta "Hahmo on liian nuori seikkailuun."
 
-        static int hahmonIka = 17; // Voit muuttaa tätä arvoa testataksesi
-
         static void Main(string[] args)
         {
+            int hahmonIka = 17; // Voit muuttaa tätä arvoa testataksesi
+            
             Console.WriteLine("Hahmon ikä: " + hahmonIka);
 
             // Kirjoita ehtolauseesi tähän alle:
