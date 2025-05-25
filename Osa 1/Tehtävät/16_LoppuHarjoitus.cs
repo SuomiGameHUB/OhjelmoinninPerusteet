@@ -22,7 +22,8 @@ namespace LoppuHarjoitus
         //    c. Jos syöte on "lopeta", lopeta silmukka.
         //    d. Jos syöte on tyhjä, tulosta "Et syöttänyt nimeä. Yritä uudelleen."
         //    e. Jos syöte ei ole "lopeta", tulosta käyttäjälle personoitu tervehdys,
-        //       esim. "Hei, [nimi]! Tervetuloa seikkailuun!"
+        //       i. Tulosta käyttäjälle personoitu tervehdys, esim. "Hei, Boromir! Tervetuloa seikkailuun!"
+        //       ii. Käytä for-silmukkaa tulostamaan "Hauskaa päivänjatkoa!" kolme kertaa.
         // 3. Kun silmukka päättyy, tulosta "Kiitos ja näkemiin!".
 
         // Kirjoita metodi tähän:
