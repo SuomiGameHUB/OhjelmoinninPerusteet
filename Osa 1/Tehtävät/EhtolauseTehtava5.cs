@@ -15,11 +15,11 @@ namespace EhtolauseHarjoitukset
         //   hän voi ostaa "Puinen kilpi". Tulosta viesti tästä.
         // - Jos pelaajalla on alle 10 kolikkoa, tulosta "Ei tarpeeksi kolikoita mihinkään esineeseen.".
 
-        static int pelaajanKolikot = 75; // Kokeile eri arvoja, esim. 5, 25, 60, 120
-        static bool onErikoislupa = false; // Kokeile true/false
-
         static void Main(string[] args)
         {
+            int pelaajanKolikot = 75; // Kokeile eri arvoja, esim. 5, 25, 60, 120
+            bool onErikoislupa = false; // Kokeile true/false
+            
             Console.WriteLine("Pelaajan kolikot: " + pelaajanKolikot);
             Console.WriteLine("Pelaajalla erikoislupa: " + onErikoislupa);
 
