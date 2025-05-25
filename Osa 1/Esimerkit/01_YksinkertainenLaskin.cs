@@ -17,7 +17,7 @@ namespace YksinkertainenLaskin
 
             double summa = luku1 + luku2;
 
-            Console.WriteLine($"Summa on: " + summa);
+            Console.WriteLine("Summa on: " + summa);
 
             Console.WriteLine("Paina Enter lopettaaksesi.");
             Console.ReadLine();
