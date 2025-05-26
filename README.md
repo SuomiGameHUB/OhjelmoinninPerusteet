@@ -3,7 +3,7 @@ Oppaan tavoitteena on avata ohjelmoinnin maailmaa erityisesti sinulle, joka olet
 
 Täältä löydät esimerkkien koodit ja tehtäviä oppaisiin liittyen.
 
-[Osa 1](https://suomigamehub.com/oppaat/c-vasta-alkajille-ohjelmoinnin-perusteet/)
+[Lue oppaan osa 1](https://suomigamehub.com/oppaat/c-vasta-alkajille-ohjelmoinnin-perusteet/)
 
 Esimerkit:
 * 01_YksinkertainenLaskin.cs
