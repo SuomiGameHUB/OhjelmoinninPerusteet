@@ -11,30 +11,30 @@ namespace OlioTehtavat
     // Tulosta jokaisen hyökkäyksen jälkeen, paljonko pelaajalla on elämäpisteitä.
     // Peli loppuu, kun pelaajalla on 0 tai alle elämäpistettä.
 
-    static class Program
+    public class Pelaaja
     {
-        public class Pelaaja
+        public string nimi;
+        public int elamaPisteet;
+
+        public Pelaaja(string nimi, int elamaPisteet)
         {
-            public string nimi;
-            public int elamaPisteet;
-
-            public Pelaaja(string nimi, int elamaPisteet)
-            {
-                this.nimi = nimi;
-                this.elamaPisteet = elamaPisteet;
-            }
-
-            public void OtaVahinkoa(int maara)
-            {
-                elamaPisteet -= maara;
-            }
+            this.nimi = nimi;
+            this.elamaPisteet = elamaPisteet;
         }
 
-        // Koodisi tähän alle
+        public void OtaVahinkoa(int maara)
+        {
+            elamaPisteet -= maara;
+        }
+    }
+
+    // Koodisi tähän alle
 
 
-        // Koodisi tähän yläpuolelle
+    // Koodisi tähän yläpuolelle
 
+    static class Program
+    {
         static void Main(string[] args)
         {
             Pelaaja sankarimme = new Pelaaja("Heikki", 100);
@@ -47,4 +47,5 @@ namespace OlioTehtavat
             Console.ReadLine();
         }
     }
+
 }
