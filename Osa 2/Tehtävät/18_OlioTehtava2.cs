@@ -7,16 +7,16 @@ namespace OlioTehtavat
     // int elamaPisteet;
     // Aseta näille arvoja pääohjelmassa luodun olion kautta ja tulosta ne konsoliin.
 
+    public class Pelaaja
+    {
+        // Koodisi tähän alle
+
+
+        // Koodisi tähän yläpuolelle
+    }
+
     static class Program
     {
-        public class Pelaaja
-        {
-            // Koodisi tähän alle
-
-
-            // Koodisi tähän yläpuolelle
-        }
-
         static void Main(string[] args)
         {
             // Koodisi tähän alle
@@ -27,4 +27,5 @@ namespace OlioTehtavat
             Console.ReadLine();
         }
     }
+
 }
