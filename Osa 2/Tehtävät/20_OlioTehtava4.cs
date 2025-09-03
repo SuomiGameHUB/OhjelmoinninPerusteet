@@ -8,25 +8,25 @@ namespace OlioTehtavat
     // Muuta Main-metodin koodia niin, että se kutsuu näitä uusia metodeja.
     // Testaa, että pelaaja kuolee, jos elämäpisteet menevät alle nollan.
 
-    static class Program
+    public class Pelaaja
     {
-        public class Pelaaja
+        public string nimi;
+        public int elamaPisteet;
+
+        public Pelaaja(string nimi, int elamaPisteet)
         {
-            public string nimi;
-            public int elamaPisteet;
-
-            public Pelaaja(string nimi, int elamaPisteet)
-            {
-                this.nimi = nimi;
-                this.elamaPisteet = elamaPisteet;
-            }
-
-            // Koodisi tähän alle
-
-
-            // Koodisi tähän yläpuolelle
+            this.nimi = nimi;
+            this.elamaPisteet = elamaPisteet;
         }
 
+        // Koodisi tähän alle
+
+
+        // Koodisi tähän yläpuolelle
+    }
+
+    static class Program
+    {
         static void Main(string[] args)
         {
             Pelaaja sankarimme = new Pelaaja("Heikki", 100);
@@ -39,4 +39,5 @@ namespace OlioTehtavat
             Console.ReadLine();
         }
     }
+
 }
