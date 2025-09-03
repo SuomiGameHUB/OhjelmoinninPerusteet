@@ -7,19 +7,19 @@ namespace OlioTehtavat
     // Konstruktorin sisällä aseta nämä parametrit luokan ominaisuuksiin.
     // Muuta Main-metodin koodia niin, että luot uuden olion, joka käyttää konstruktoria.
 
+    public class Pelaaja
+    {
+        public string nimi;
+        public int elamaPisteet;
+
+        // Koodisi tähän alle
+
+
+        // Koodisi tähän yläpuolelle
+    }
+    
     static class Program
     {
-        public class Pelaaja
-        {
-            public string nimi;
-            public int elamaPisteet;
-
-            // Koodisi tähän alle
-
-
-            // Koodisi tähän yläpuolelle
-        }
-
         static void Main(string[] args)
         {
             // Koodisi tähän alle
@@ -30,4 +30,5 @@ namespace OlioTehtavat
             Console.ReadLine();
         }
     }
+
 }
